@@ -1,0 +1,33 @@
+nav{
+    
+    background-color:  aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(15, 15, 58);
+}
+form{
+    /* color: white;
+    display: block;
+    margin-left: 700px;
+    justify-content: center; */
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 100px;
+    display: block;
+    margin-left: 700px;
+}
+#p2{
+    width: 30px;
+    height: 30px;
+}
+a{
+    display: flex;
+    width: fit-content;
+}

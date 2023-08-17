@@ -1,0 +1,49 @@
+nav{
+    
+    background-color:  aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(15, 15, 58);
+}
+form{
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 100px;
+    display: block;
+    margin-left: 700px;
+    /* border-bottom: transparent; */
+    
+
+
+}
+input{
+    border: none;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px  solid white;
+}
+input::placeholder{
+    color: rgba(118, 118, 118, 0.34);
+}
+button{
+    margin-top: 10px;
+    width: 167px;
+    background-color: aquamarine ;
+    
+
+}
+#p2{
+    width: 30px;
+    height: 30px;
+}
+a{
+    display: flex;
+    width: fit-content;
+}

@@ -1,0 +1,58 @@
+nav{
+    
+    background-color:  aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    
+}
+.l1{
+    color: black;
+}
+body{
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(15, 15, 58);
+}
+.d1{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    display: block;
+    margin-left: 700px;
+    /* border-bottom: transparent; */
+    
+
+}
+input{
+    display: block;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+
+
+}
+.l{
+    color: white;
+}
+button{
+    margin-top: 10px;
+    width: 207px;
+    background-color: aquamarine ;
+    
+
+}
+input::placeholder{
+    color: rgba(118, 118, 118, 0.34);
+}
+#p2{
+    width: 30px;
+    height: 30px;
+}
+a{
+    display: flex;
+    width: fit-content;
+}
